@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff4747;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc3d3d;
+}
+
+.hidden {
+    display: none;
+}
+
+video {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+}

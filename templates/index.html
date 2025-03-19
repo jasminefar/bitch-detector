@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitch Detector 3000</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Would you like to find out if u get bitches??</h1>
+        <button id="start-btn">YES</button>
+
+        <div id="upload-section" class="hidden">
+            <h2>Upload your pic or use your webcam:</h2>
+            <input type="file" id="file-input">
+            <button id="upload-btn">Upload</button>
+            <video id="video" autoplay></video>
+            <canvas id="canvas" class="hidden"></canvas>
+            <button id="capture-btn">Capture</button>
+        </div>
+
+        <div id="result-section" class="hidden">
+            <h2 id="result-text"></h2>
+            <img id="result-img" src="" alt="Uploaded image">
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
